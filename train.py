@@ -1,5 +1,5 @@
-def greet (input(salom)):
-    return f"{salom}, nima gaplar?" 
+def greet(matn):
+    return f"{matn}, nima gaplar?"
 
 
-print(greet("hello"))
+print(greet(input()))
